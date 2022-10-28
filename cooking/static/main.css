@@ -1,0 +1,205 @@
+.nadpis {
+    text-align: center;
+    font-size: 25px;
+    color: #1d578c;
+}
+.centerOBR {
+    position: 10%;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+}
+.buttonSpustRuletu {
+    background-color: #4fbd21;
+    width: 300px;
+    height: 70px;
+
+    margin: 10px;
+    font-size: 30px;
+    border: solid #4fbd21;
+    border-radius: 5px;
+
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.ButtonMenu {
+    text-align: center;
+    color: #142685;
+    font-size: 20px;
+    margin: 5px 31px;
+    padding: 10px 10px;
+    border-color: grey;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-decoration:none;
+}
+.MainMenuButtons{
+    color: grey;
+    display: block;
+    width: 140px;
+    height: 30px;
+    text-decoration: none;
+}
+.Buttons_Menu {
+    flex: 25%;
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.spust {
+    display: block;
+    padding: 10px 20px;                             /*umoznuje kliknut a prepojit odkaz na celej ploche tlacitka*/
+    text-decoration: none;                          /*zmazuje podcirknutie textu*/
+}
+#centerTabulka {
+    border-collapse: collapse;
+
+    opacity: 0.9;
+}
+#centerTabulka th {
+    background-color: #999999;
+    color: black;
+    border: 1px solid;
+}
+#centerTabulka td {
+    background-color: #f2e0cd;
+    color: black;
+    border: 1px solid;
+}
+.FieldColor{
+    background-color: white;
+}
+
+
+#suroviny {
+    margin-left: 25%;
+    width: 40%;
+    border-collapse: collapse;
+    opacity: 0.9;
+}
+#suroviny th {
+    background-color: #999999;
+    color: #142685;
+    border: 1px solid;
+    border-color: black;
+    text-align: center;
+}
+#suroviny td {
+    background-color: #dadada;
+    color: black;
+    border: 1px solid;
+}
+
+
+
+
+/*
+.backgroundRest{
+    background-repeat: repeat-y;
+   /* background-image: url("https://img.freepik.com/free-vector/hand-drawn-food-elements_1411-48.jpg?w=1380&t=st=1665784660~exp=1665785260~hmac=bc568d1f3b7a249ab53df7509cfe47e41ad32c6fbe740d2c43939f134792a02a");
+   * /
+    background-image: url("https://chiropractorfrederick.net/wp-content/uploads/2017/08/background.jpg");
+    opacity: 0.9;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+} */
+
+.backgroundMain{
+    opacity: 0.9;
+    background-image: url("backgroundMainCutted.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+
+}
+
+.log{
+    opacity: 0.9;
+    background-image: url("https://chiropractorfrederick.net/wp-content/uploads/2017/08/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+                                /*  nepouzivame tie buttony dole  */
+.buttonUkazRecepty {
+    text-align: center;
+    background-color: buttonface;
+    color: grey;
+    width: 250px;
+    height: 50px;
+
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-radius: 5px;
+
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.buttonSmazRecepty {
+    background-color: buttonface;            /* TOTO: #e7dcda */
+    color: grey;                      /* TOTO: #e7dcda */
+    width: 250px;
+    height: 50px;
+
+    margin: 10px;
+    border: solid;
+    border-radius: 5px;
+
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+                                /*  nepouzivame tie buttony hore  */
+
+
+.topnav {
+  overflow: hidden;
+
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+}
+
+.topnav input[type=text] {
+  float: left;
+  padding: 6px;
+  margin-top: 8px;
+
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 70px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
