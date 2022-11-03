@@ -1,1 +1,1 @@
-web: gunicorn roulette.wsgi --log-file
+web: gunicorn roulette.wsgi --log-file -
